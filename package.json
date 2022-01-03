@@ -1,9 +1,12 @@
 {
   "name": "myllis",
   "version": "0.0.1",
+  "private": false,
   "description": "A stylish component library writting in typescript, for react.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "keywords": ["react", "components", "ui"],
+  "files": [ "dist", "README.md" ],
   "scripts": {
     "build": "npx rollup -c",
     "test": "jest",
