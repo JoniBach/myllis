@@ -1,0 +1,19 @@
+{
+  "name": "myllis",
+  "version": "0.0.1",
+  "description": "A stylish component library writting in typescript, for react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JoniBach/myllis.git"
+  },
+  "author": "JoniBach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoniBach/myllis/issues"
+  },
+  "homepage": "https://github.com/JoniBach/myllis#readme"
+}
