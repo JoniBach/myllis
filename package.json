@@ -1,6 +1,6 @@
 {
   "name": "myllis",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "A stylish component library writting in typescript, for react.",
   "main": "dist/index.js",
@@ -21,8 +21,8 @@
   "scripts": {
     "build": "npx rollup -c",
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "docs": "start-storybook -p 6006",
+    "build-docs": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -69,6 +69,7 @@
   "dependencies": {
     "babel-plugin-module-resolver": "^4.1.0",
     "framer-motion": "^5.5.5",
+    "recharts": "^2.1.8",
     "styled-components": "^5.3.3"
   }
 }
