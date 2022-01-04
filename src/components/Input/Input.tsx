@@ -152,13 +152,13 @@ export const Input = ({
   );
 };
 
-type OutputProps = {
+type DisplayProps = {
   label: string;
   value: any;
   description: string;
 };
 
-export const Output = ({ value, label, description }: OutputProps) => {
+export const Display = ({ value, label, description }: DisplayProps) => {
   const [active, setActive] = useState(false);
   return (
     <FieldContainer>

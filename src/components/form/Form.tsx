@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Button } from "../button/Button";
 import { Group } from "../group/Group";
-import { Input } from "../Input/Input";
-
+import { Input } from "../input/Input";
 const FormContainer = styled('form')``;
 
 type FormProps = {
