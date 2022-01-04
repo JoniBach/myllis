@@ -5,8 +5,15 @@
   "description": "A stylish component library writting in typescript, for react.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "keywords": ["react", "components", "ui"],
-  "files": [ "dist", "README.md" ],
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "npx rollup -c",
     "test": "jest",
@@ -32,6 +39,7 @@
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.38",
+    "@types/styled-components": "^5.1.19",
     "babel-loader": "^8.2.3",
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
@@ -54,5 +62,9 @@
       "js"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-plugin-module-resolver": "^4.1.0",
+    "framer-motion": "^5.5.5",
+    "styled-components": "^5.3.3"
+  }
 }

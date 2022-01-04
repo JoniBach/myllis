@@ -2,6 +2,7 @@ import React from "react";
 import { Component } from "./Component";
 
 import { Meta } from "@storybook/react/types-6-0";
+import { Button } from "../button/Button";
 
 // Primary will be the name for the first story
 export const Primary: React.FC<{}> = () => (
@@ -14,9 +15,7 @@ export const Primary: React.FC<{}> = () => (
 
 // Secondary will be the name for the second story
 export const Secondary: React.FC<{}> = () => (
-  <Component title="Another title">
-    <div>Secondary component</div>
-  </Component>
+ <Button onClick={() => console.log('test')}>test</Button>
 );
 
 export default {
